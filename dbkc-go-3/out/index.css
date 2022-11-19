@@ -1,0 +1,22 @@
+.gbl {
+  color: greenyellow;
+  font-size: 40px;
+  background-color: rgb(0, 255, 242);
+}
+
+.card {
+  background-color: wheat;
+}
+.card div {
+  color: rgb(0, 255, 242);
+}
+.card:hover {
+  background-color: black;
+}
+.card:hover ~ .block {
+  height: 400px;
+  width: 400px;
+  background-color: bisque;
+}
+
+/*# sourceMappingURL=index.css.map */

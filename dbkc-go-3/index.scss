@@ -1,0 +1,27 @@
+$global-color:rgb(0, 255, 242);
+
+.gbl{
+
+    color:greenyellow;
+    font-size: 40px;
+    background-color: $global-color;
+}
+
+.card{
+    background-color: wheat;
+    div {
+        color: $global-color;
+    }
+    &:hover{
+        &~.block {
+            height: 400px;
+            width: 400px;
+            background-color: bisque;
+        }
+        background-color: black;
+    }
+}
+
+
+
+
